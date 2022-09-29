@@ -3,7 +3,7 @@
 ### Docker-compose
 
     - reverse proxy server : nginx (1.18.0)
-    - web server : nginx, express (nextjs)
+    - web server : nginx, next web server
     - web application server (WAS) : nestjs
     - database : postgres:14
     - node : node:16-alpine

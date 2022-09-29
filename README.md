@@ -5,7 +5,7 @@
     - reverse proxy server : nginx (1.18.0)
     - web server : nginx, next web server
     - web application server (WAS) : nestjs
-    - database : postgres:14
+    - database : postgres:14-alpine
     - node : node:16-alpine
 
 ### [Flow](https://www.figma.com/file/s21PV3PjwcfJZnFSBpitax/nginx-flow?node-id=0%3A1)

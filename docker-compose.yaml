@@ -40,5 +40,4 @@ services:
         POSTGRES_USERNAME : "postgres"            
         POSTGRES_PASSWORD : "1234"
       volumes:
-        - "./db/var/run/postgresql:/var/run/postgresql"
-        
+        - "./db/var/lib/postgresql/data:/var/lib/postgresql/data"
